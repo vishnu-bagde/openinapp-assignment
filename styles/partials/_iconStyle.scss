@@ -1,0 +1,226 @@
+@import "./iconVariables";
+
+.oia-excel .path1 {
+  &:before {
+    content: $oia-excel-path1;
+    color: rgb(24, 92, 55);
+  }
+}
+
+.oia-excel .path2 {
+  &:before {
+    content: $oia-excel-path2;
+    margin-left: -1em;
+    color: rgb(33, 163, 102);
+  }
+}
+
+.oia-excel .path3 {
+  &:before {
+    content: $oia-excel-path3;
+    margin-left: -1em;
+    color: rgb(16, 124, 65);
+  }
+}
+
+.oia-excel .path4 {
+  &:before {
+    content: $oia-excel-path4;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.1;
+  }
+}
+
+.oia-excel .path5 {
+  &:before {
+    content: $oia-excel-path5;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.2;
+  }
+}
+
+.oia-excel .path6 {
+  &:before {
+    content: $oia-excel-path6;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.2;
+  }
+}
+
+.oia-excel .path7 {
+  &:before {
+    content: $oia-excel-path7;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.2;
+  }
+}
+
+.oia-excel .path8 {
+  &:before {
+    content: $oia-excel-path8;
+    margin-left: -1em;
+    color: rgb(16, 124, 65);
+  }
+}
+
+.oia-excel .path9 {
+  &:before {
+    content: $oia-excel-path9;
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+}
+
+.oia-excel .path10 {
+  &:before {
+    content: $oia-excel-path10;
+    margin-left: -1em;
+    color: rgb(51, 196, 129);
+  }
+}
+
+.oia-excel .path11 {
+  &:before {
+    content: $oia-excel-path11;
+    margin-left: -1em;
+    color: rgb(16, 124, 65);
+  }
+}
+
+.oia-apple {
+  &:before {
+    content: $oia-apple;
+    color: #999;
+  }
+}
+
+.oia-google .path1 {
+  &:before {
+    content: $oia-google-path1;
+    color: rgb(66, 133, 244);
+  }
+}
+
+.oia-google .path2 {
+  &:before {
+    content: $oia-google-path2;
+    margin-left: -1em;
+    color: rgb(52, 168, 83);
+  }
+}
+
+.oia-google .path3 {
+  &:before {
+    content: $oia-google-path3;
+    margin-left: -1em;
+    color: rgb(251, 188, 5);
+  }
+}
+
+.oia-google .path4 {
+  &:before {
+    content: $oia-google-path4;
+    margin-left: -1em;
+    color: rgb(235, 67, 53);
+  }
+}
+
+.oia-upload {
+  &:before {
+    content: $oia-upload;
+  }
+}
+
+.oia-schedule {
+  &:before {
+    content: $oia-schedule;
+  }
+}
+
+.oia-hamburger {
+  &:before {
+    content: $oia-hamburger;
+  }
+}
+
+.oia-close {
+  &:before {
+    content: $oia-close;
+  }
+}
+
+.oia-upload-arrow {
+  &:before {
+    content: $oia-upload-arrow;
+  }
+}
+
+.oia-arrow {
+  &:before {
+    content: $oia-arrow;
+  }
+}
+
+.oia-linkedIn {
+  &:before {
+    content: $oia-linkedIn;
+  }
+}
+
+.oia-notification {
+  &:before {
+    content: $oia-notification;
+  }
+}
+
+.oia-setting {
+  &:before {
+    content: $oia-setting;
+  }
+}
+
+.oia-twitter {
+  &:before {
+    content: $oia-twitter;
+  }
+}
+
+.oia-bell {
+  &:before {
+    content: $oia-bell;
+  }
+}
+
+.oia-calendar {
+  &:before {
+    content: $oia-calendar;
+  }
+}
+
+.oia-dashboard {
+  &:before {
+    content: $oia-dashboard;
+  }
+}
+
+.oia-discord {
+  &:before {
+    content: $oia-discord;
+  }
+}
+
+.oia-github {
+  &:before {
+    content: $oia-github;
+  }
+}
+
+.oia-invoice {
+  &:before {
+    content: $oia-invoice;
+  }
+}

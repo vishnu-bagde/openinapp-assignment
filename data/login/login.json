@@ -1,0 +1,49 @@
+{
+    "heading": "BASE",
+    "social_list": [
+        {
+            "icoName": "github",
+            "link": "#"
+        },
+        {
+            "icoName": "twitter",
+            "link": "#"
+        },
+        {
+            "icoName": "linkedIn",
+            "link": "https://www.linkedin.com/in/vishnubagde/",
+            "newTab": true
+        },
+        {
+            "icoName": "discord",
+            "link": "#"
+        }
+    ],
+    "formHeading": "Sign In",
+    "formSubHeading": "Sign in to your account",
+    "socialBtn": [
+        {
+            "icoName": "google",
+            "label": "Sign in with Google"
+        },
+        {
+            "icoName": "apple",
+            "label": "Sign in with Apple"
+        }
+    ],
+    "formData": {
+        "emailHeading": "Email address",
+        "passwordHeading": "Password",
+        "forgotText": "Forgot password?",
+        "submitText": "Sign In",
+        "signupData": {
+            "label": "Don’t have an account?",
+            "btnText": "Register here"
+        }
+    },
+    "seo": {
+        "meta_title": "Login",
+        "meta_keywords": "login page",
+        "meta_description": "login page"
+    }
+}

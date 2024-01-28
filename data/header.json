@@ -1,0 +1,39 @@
+{
+    "nav": [
+        {
+            "link": "#",
+            "icoName": "dashboard",
+            "label": "Dashboard"
+        },
+        {
+            "link": "/",
+            "icoName": "upload",
+            "label": "Upload"
+        },
+        {
+            "link": "#",
+            "icoName": "invoice",
+            "label": "Invoice"
+        },
+        {
+            "link": "#",
+            "icoName": "schedule",
+            "label": "Schedule"
+        },
+        {
+            "link": "#",
+            "icoName": "calendar",
+            "label": "Calendar"
+        },
+        {
+            "link": "#",
+            "icoName": "notification",
+            "label": "Notification"
+        },
+        {
+            "link": "#",
+            "icoName": "setting",
+            "label": "Settings"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+@import "~/styles/partials/variables";
+@import "~/styles/partials/mixins";
+
+.form {
+    &--group {
+        input {
+            border: none;
+            outline: none;
+            transition: background-color 0.2s linear;
+
+            &:focus {
+                background-color: rgba($grey, 0.4);
+            }
+        }
+
+        .error {
+            bottom: 5px;
+            left: 0;
+        }
+    }
+}

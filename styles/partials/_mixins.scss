@@ -1,0 +1,28 @@
+@use 'sass:math';
+$baseSize: 16;
+@function size($target, $context: $baseSize) {
+    @return math.div($target, $context) * 1em;
+}
+
+%bgshadow {
+    box-shadow: 0px 15px 30px rgba(0, 0, 10, 0.1);
+}
+
+@mixin min($min) {
+    @media only screen and (min-width: #{$min}px) {
+        @content
+    };
+}
+
+@mixin max($max) {
+    @media only screen and (max-width: #{$max}px) {
+        @content
+    };
+}
+
+
+@mixin maxOrientation($max, $orientation) {
+    @media only screen and (max-device-width: #{$max}px) and (orientation: #{$orientation}) {
+        @content
+    };
+}

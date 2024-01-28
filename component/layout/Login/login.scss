@@ -1,0 +1,23 @@
+@import "~/styles/partials/variables";
+@import "~/styles/partials/mixins";
+
+.login {
+    &--container {
+        z-index: 0;
+        &::after {
+            content: '';
+            inset: 0;
+            z-index: -1;
+            position: absolute;
+            background-color: $primary;
+            clip-path: polygon(0 0, 50% 0, 42% 100%, 0% 100%);
+        }
+
+        &-wrap {
+            @include max(1660) {
+                width: calc(100% / 3);
+            }
+        }
+        
+    }
+}

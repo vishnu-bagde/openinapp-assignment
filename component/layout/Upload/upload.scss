@@ -1,0 +1,92 @@
+@import "~/styles/partials/variables";
+@import "~/styles/partials/mixins";
+
+.upload {
+    &--form {
+        width: 600px;
+        height: 350px;
+
+        @include maxOrientation(1024, portrait) {
+            width: 100%;
+        }
+
+        &-container {
+
+            button,
+            label {
+                z-index: 1;
+            }
+        }
+
+        &-group {
+            height: 100%;
+            border: 1px dashed rgba($grey, 0.5);
+
+
+            input {
+                opacity: 0;
+                height: 100%;
+            }
+
+        }
+
+        &-submit {
+            &.loading {
+                span {
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    border: 2px solid;
+                    border-color: $white $white transparent;
+                    animation: rotation 1s linear infinite;
+                }
+            }
+        }
+
+    }
+
+    &--list {
+
+        &-group {
+            overflow: auto;
+            
+            >li {
+                @include maxOrientation(1024, portrait) {
+                    width: fit-content;
+                }
+            }
+        }
+        
+        .serialNumber {
+            width: 10%;
+            border-radius: 10px 0 0 10px;
+        }
+        .link, .prefix, .addTag {
+            width: 20%;
+        }
+        .selectedTag {
+            width: 30%;
+            border-radius: 0 10px 10px 0;
+        }
+
+        @include maxOrientation(1024, portrait) {
+            .serialNumber {
+                min-width: 20vw;
+            }
+
+            .link, .prefix, .addTag, .selectedTag {
+                min-width: 40vw;
+            }
+        }
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
