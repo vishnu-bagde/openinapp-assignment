@@ -5,6 +5,7 @@ import Header from "../../component/layout/Header/Header"
 import '../../styles/style.scss'
 import { usePathname } from "next/navigation"
 import LoginHeader from "../../component/layout/Login/LoginHeader"
+import Landscape from "../../component/layout/Landscape"
 
 export default function RootLayout({ children }) {
     const pathName = usePathname()
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
                             <Header />
                     }
                     {children}
+                    <Landscape />
                 </body>
             </html>
         </AppProvider>
