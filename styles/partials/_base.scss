@@ -176,6 +176,10 @@ input[type=number]::-webkit-outer-spin-button {
 	text-align: center;
 	line-height: normal;
 	border-radius: 10px;
+
+	@include maxOrientation(1024, portrait) {
+		padding: 10px;
+	}
 	
 	&:disabled {
 		opacity: 0.4;
